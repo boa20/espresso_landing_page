@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF5FD;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap-page {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#full-stop {
+    color: coral;
+}
+
+#nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.list-item {
+    padding-top: 30px;
+    margin-right: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    color: #540986;
+    font-size: 20px;
+}
+
+
+#order {
+    padding: 10px 15px;
+    background: #540986;
+    color: #Fff;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text {
+    align-items: flex-start;
+}
+
+.hero-text h2 {
+    color: #540986;
+}
+
+.hero-text input {
+    border-radius: 100px;
+    padding: 9px 14px;
+    border-color: white;
+}
+
+#doorsteps {
+    color: coral;
+}
+
+#input_container {
+    position:relative;
+    background:#FFF5FD;
+}
+
+#input_img {
+    position: absolute;
+    bottom:3px;
+    right:3px;
+    width:30px;
+    background-color: coral;
+    outline-color: white;
+    border-radius: 50px;
+}
+
+.hero-img {
+    align-items: flex-end;
+}
+
+.cta {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.cta h2 {
+    color: #540986;
+}
+
+.quality {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quality-items {
+    text-align: center;
+}
+
+.arrow {
+    color: #8215cf;
+    size: 10px;
+    height: 45px;
+    width: 70px;
+    align-content: center;
+}
+
+.txt-color {
+    color: #540986;
+}
+
+
+.image {
+    size: 5px;
+    height: 20px;
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF5FD;
+    color: #540986;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#bottom-text {
+    padding-left: 50px;
+}
+
+#bottom-text span {
+    color: coral;
+}
+
+#bottom-text h2 {
+    color: #540986;
+    padding-top:80px;
+}
+#bottom-text-paragraph {
+    padding-bottom: 70px;
+}
+
+#order-now-text {
+    padding: 10px 15px;
+    border-radius: 50px;
+    background: black;
+    color: white;
+    width: 170px;
+}
+
+#order-now {
+    position:relative;
+    background: #FFF5FD;
+}
+
+#order-arrow {
+    position: absolute;
+    size: 5px;
+    bottom:3px;
+    right:180px;
+    width: 40px;
+    background: black;
+    color: white;
+}
